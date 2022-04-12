@@ -1,5 +1,24 @@
 /* 2.Login Module */
+
+.container-login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.container-login.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
 .modu-login {
+  position: relative;
+  background-color: white;
   margin: 50px auto;
   height: 712px;
   width: 520px;
@@ -23,6 +42,23 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.close-login {
+  position: absolute;
+  top: 22px;
+  right: 24px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.close-login:hover {
+  background-color: #ddd;
+}
+
+.close-login .img-login {
+  width: 16px;
 }
 
 .modu-login .wrapper-login {
@@ -153,4 +189,10 @@
 }
 .modu-login .link-login .login-kakao {
   border: 1px solid #f2c94c;
+}
+.login-google:hover,
+.login-facebook:hover,
+.login-naver:hover,
+.login-kakao:hover {
+  opacity: 0.8;
 }
