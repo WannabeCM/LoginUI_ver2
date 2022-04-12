@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginUI2</title>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/module.css" />
+  </head>
+  <body>
+    <article class="cont-login">
+      <h2 class="blind">위니브 로그인</h2>
+      <img class="img-logo" src="./img/logo.svg" alt="위니브" />
+      <p class="txt-login">위니브를 더 즐겁고 편리하게 이용하세요.</p>
+      <button class="btn-login">로그인</button>
+    </article>
+
+    <form class="modu-login">
+      <h1 class="tit-login">로그인 또는 회원가입</h1>
+      <p class="txt-login">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+      <article class="wrapper-login">
+        <input class="input-id" type="id" placeholder="아이디" required />
+        <input class="input-pw" type="pw" placeholder="비밀번호" required />
+        <div class="wrapper-status">
+          <input class="check-login" type="checkbox" />
+          <span class="txt-status">로그인 상태 유지</span>
+        </div>
+        <button type="button" class="btn-login">로그인</button>
+        <div class="wrapper-account">
+          <div class="login-join"><a href="#">회원가입</a></div>
+          <div class="login-find"><a href="#">아이디/비밀번호 찾기</a></div>
+        </div>
+      </article>
+      <div class="or">또는</div>
+      <article class="link-login">
+        <a href="https://www.google.com">
+          <div class="login-google">구글 계정으로 로그인</div></a
+        >
+        <a href="https://www.facebook.com"
+          ><div class="login-facebook">페이스북 계정으로 로그인</div></a
+        >
+        <a href="https://www.naver.com"
+          ><div class="login-naver">네이버 계정으로 로그인</div></a
+        >
+        <a href="https://www.kakao.com"
+          ><div class="login-kakao">카카오톡 계정으로 로그인</div></a
+        >
+      </article>
+    </form>
+  </body>
+</html>
