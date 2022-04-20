@@ -2,7 +2,7 @@
 
 시연 영상
 ![enter image description here](https://blog.kakaocdn.net/dn/WWDWE/btrzdM14j6k/zAktNmDkTyLbyl8RD636gK/img.gif)
-[사이트 바로가기](https://wannabecm.github.io/LoginUI_ver2_LIKELION/)
+[사이트 바로가기](https://wannabecm.github.io/LoginUI_ver2/)
 
 ## TIL
 ### button을 활용하여 모듈창 구현하기
